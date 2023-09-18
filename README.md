@@ -27,3 +27,22 @@ The application should adapt gracefully across devices – desktops, tablets, an
 • Material UI
 • MirageJS (https://miragejs.com/)
 • Full Calender API (https://fullcalendar.io/)
+
+To get started with this project, follow these steps:
+
+Clone the Repository: git clone https://github.com/mrvlsaf/Find-Falcone.git
+
+Navigate to the Project Directory: cd finding_falcone-master
+
+Install Dependencies: npm install
+
+Run the Development Server: npm start The application will be running at http://localhost:3000/.
+
+Available Scripts
+In the project directory, you can run the following scripts:
+
+npm start: Runs the app in development mode.
+npm build: Builds the app for production to the build folder.
+npm test: Launches the test runner in interactive watch mode.
+npm eject: Ejects the app from Create React App, allowing you to customize the configuration.
+Happy coding!
