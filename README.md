@@ -1,8 +1,10 @@
+[EventScheduler.zip](https://github.com/mrvlsaf/Event-Scheduler/files/12653531/EventScheduler.zip)
+
 Created event Scheduler
 
 # Features
 1. Event Creation:
-•	A form to schedule a new event with fields: Event Name, Description, Start Time, Start Date, End Time and End Date.
+•	A form to schedule a new event with fields: Event Name, Description, Start Time, Start Date, End Time, and End Date.
 •	Upon submission, events should appear in both a list and a calendar view.
 
 2. Event Views:
