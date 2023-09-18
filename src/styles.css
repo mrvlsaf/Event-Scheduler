@@ -1,0 +1,77 @@
+.header-container {
+  height: 5em;
+  padding: 1em;
+  background: black;
+  color: whitesmoke;
+}
+
+.header-heading {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.calender-list-container {
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.calender-view-cont {
+  width: 70%;
+}
+
+.list-view-cont {
+  width: 28%;
+}
+
+.new-event-cont {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-event-cont span {
+  font-size: 1.5em;
+}
+
+.add-event-button {
+  background: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+}
+
+.add-event-heading {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.edit-btn,
+.delete-btn {
+  background: #3788d8;
+  border: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn{
+    background: red;
+}
+
+@media (max-width: 700px) {
+  .calender-list-container {
+    flex-direction: column;
+  }
+
+  .calender-view-cont,
+  .list-view-cont {
+    width: 100%;
+  }
+}
